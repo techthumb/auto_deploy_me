@@ -1,0 +1,7 @@
+---
+pipeline:
+  stages:
+  - sequence: 0
+    name: 'Specs'
+    command: bundle exec rake spec
+    type: build
